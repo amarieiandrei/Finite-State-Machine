@@ -1,0 +1,32 @@
+
+Un Automat Finit este un ansamblu M=(Q,𝜮,𝜹,q0,F);
+Q-Multime finita si nevida de elemente, numite stari;
+𝜮-Multime finita si nevida numita, alfabet de intrare;
+𝜹-Functie de tranzitie;
+q0-Stare initiala;
+F-Multime nevida, numita multimea starilor finale;
+
+Definirea ansamblului, automatul meu finit;
+
+Multimea Q pentru automatul finit;
+q0,q1,q2;
+
+𝜮={0,1};
+
+Multimea 𝜹 pentru automatul finit;
+0,1;
+
+F={q2};
+
+Sintaxa corecta a unei secvente;
+q0,0->q1;
+
+Verificati daca se accepta aceasta secventa;
+q1,0->q2;
+
+Exemple;
+Pentru starea q0 si simbolul 1 afiseaza q0;
+Pentru starea q0 si simbolul 0 afiseaza q1;
+Pentru starea q1 si simbolul 1 afiseaza q1;
+Pentru starea q1 si simbolul 0 afiseaza q2;
+Pentru starea q2 si simbolul 1 afiseaza q2;
